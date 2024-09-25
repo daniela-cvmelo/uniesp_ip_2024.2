@@ -1,4 +1,13 @@
-def funcao_processamento():
+#  Questão 4. Contagem de Moedas 
+#  
+#  a.  Descrição:  Um  colecionador  de  moedas  tem  3  tipos  de  moedas:  de  1  real,  de  50  centavos  e  de 
+#  25  centavos.  Escreva  um  programa  que  receba  a  quantidade  de  cada  tipo  de  moeda  e  calcule  o 
+#  valor total que o colecionador tem.  
+#  b. Conceito: Operadores aritméticos, tipos de dados (float). 
+
+
+
+def quantidade_moedas():
 
     qtd_moeda_25centavos = float(input('Digite a quantidade de moedas de 25 centavos: '))
     qtd_moeda_50centavos = float(input('Digite a quantidade de moedas de 50 centavos: ')) 
@@ -13,6 +22,6 @@ if __name__ == '__main__':
     
     print("--- --- Iniciando o programa --- ---")
 
-    funcao_processamento()
+    quantidade_moedas()
 
     print("--- --- Fim do programa --- ---")
